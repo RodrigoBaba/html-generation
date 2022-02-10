@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mim</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     <nav>
-        <ul>
+        <ul id="menu">
             <li>
                 <a href="index.html"> Home </a>
             </li>
@@ -20,34 +22,71 @@
 
     <main>
         <section id="sobreMim">
-            <h1>Sobre o Rodrigo</h1>
-            <p>
-                Seja bem vindo ao mundo do Rodrigo, aqui contarei um pouco sobre quem é o Rodrigo N. Baba.
-                <br /> Nascido e crescido na cidade de São Paulo, filho mais novo e sempre buscando o melhor para sua familia.
-            </p>        
-            <h3></h3>        
-            <h3>Formação</h3>
-            <p>
-                Se formou em Medicina Veterinária e atualmente está em transição de carreira.
-            </p>        
-            <h3>Hobby</h3>
-            <p>
-                Uma pessoa que gosta de música, muitos animes/séries, jogos eletrônicos e atividades físicos.
-            </p>            
-            <img 
-                src="https://github.com/RodrigoBaba.png" 
-                alt="Foto do criador desse conteudo">
+            <h1 class="center">Sobre o Rodrigo</h1>
+
+            <div class="container">
+
+                <div class="p-30">
+                    <p class="justify">
+                    Seja bem vindo ao mundo do Rodrigo, aqui contarei um pouco sobre quem é o Rodrigo N. Baba.               Nascido e crescido na cidade de São Paulo, filho mais novo e sempre buscando o melhor para sua familia.
+                </p>        
+                <h3></h3>        
+                <h3 class="center">Formação</h3>
+                <p class="justify">
+                    Se formou em Medicina Veterinária e atualmente está em transição de carreira.
+                </p>        
+                <h3 class="center">Hobby</h3>
+                <p class="justify">
+                    Uma pessoa que gosta de música, muitos animes/séries/filmes, jogos eletrônicos e atividades físicos.
+                </p>
+                </div>
+
+                <div>
+                    <img         
+                    class="br-50"
+                    src="https://github.com/RodrigoBaba.png" 
+                    alt="Foto do criador desse conteudo"
+                    >
+                </div>                            
+            </div>
+
+            
         </section>
 
         <section id="minhaMusicaFavorita">
-            <h2>Minha música favorita</h2>
+            <h2 class="center">Minha música favorita</h2>
 
-            <iframe width="892" height="502" src="https://www.youtube.com/embed/YyMu4cQD1nw?list=RDYyMu4cQD1nw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div class="container p-50 mg-60">
+                    <iframe 
+                    width="892" 
+                    height="502" 
+                    src="https://www.youtube.com/embed/YyMu4cQD1nw?list=RDYyMu4cQD1nw" title="YouTube video player" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+            </div>
+            
         </section>
     </main>
 
-    <footer>
-        <p>Feito na Generation Brazil - Rodrigo N. Baba - 2022</p>
+    <hr>
+
+    <div class="container">
+        <a href="https://pt-br.facebook.com/rodrigo.baba.1" target="_blank">
+            <img class="tm-icone" src="asserts/image/facebook.png" alt="Foto ícone facebook">
+        </a>
+        <a href="https://www.instagram.com/rodrigonuciatelli/" target="_blank">
+            <img class="tm-icone" src="asserts/image/instagram.png" alt="Foto ícone Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/rodrigo-nuciatelli-baba-a64414217/" target="_blank">
+            <img class="tm-icone" src="asserts/image/linkedin.png" alt="Foto ícone Linkedin">
+        </a>
+        <a href="https://github.com/RodrigoBaba" target="_blank">
+            <img class="tm-icone" src="asserts/image/github.png" alt="Foto ícone GitHub">
+        </a>
+    </div>
+    <footer class="center">
+        <p>Feito na Generation Brazil - Rodrigo N. Baba - 2022 &copy</p>
     </footer>
 
 </body> 

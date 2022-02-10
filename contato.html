@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <nav>
-        <ul>
+        <ul id="menu">
             <li>
                 <a href="index.html"> Home </a>
             </li>
@@ -19,11 +20,11 @@
         </ul>
     </nav>  
 
-    <h1>Entre em contato comigo</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <main>
-        <section id="formulario">
-            <form>
+    <main class="container-contato mg-150">
+        <section id="formulario">            
+            <form class="font">
                 <label for="nome">Nome:</label> <br />
                 <input type="text" id="nome" />
                 <br />
@@ -41,7 +42,6 @@
         </section>
 
         <section id="endereco">
-            <h2>Endereço</h2>
             <p>
                 Rua ...                
             </p>
@@ -49,7 +49,9 @@
                 Bairro Parque Buturussu - São Paulo - SP
             </p>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3076.6619761863444!2d-46.48506474648584!3d-23.50413308094753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1644437752229!5m2!1spt-BR!2sbr" width="600" 
+            <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3076.6619761863444!2d-46.48506474648584!3d-23.50413308094753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1644437752229!5m2!1spt-BR!2sbr" 
+            width="600" 
             height="450" 
             style="border:0;" 
             allowfullscreen="" 
@@ -57,7 +59,24 @@
         </section>
     </main>
 
-    <footer>
+    <hr>
+
+    <div class="container">
+        <a href="https://pt-br.facebook.com/rodrigo.baba.1" target="_blank">
+            <img class="tm-icone" src="asserts/image/facebook.png" alt="Foto ícone facebook">
+        </a>
+        <a href="https://www.instagram.com/rodrigonuciatelli/" target="_blank">
+            <img class="tm-icone" src="asserts/image/instagram.png" alt="Foto ícone Instagram">
+        </a>
+        <a href="https://www.linkedin.com/in/rodrigo-nuciatelli-baba-a64414217/" target="_blank">
+            <img class="tm-icone" src="asserts/image/linkedin.png" alt="Foto ícone Linkedin">
+        </a>
+        <a href="https://github.com/RodrigoBaba" target="_blank">
+            <img class="tm-icone" src="asserts/image/github.png" alt="Foto ícone GitHub">
+        </a>
+    </div>
+
+    <footer class="center">
         <p>Feito na Generation Brazil - Rodrigo N. Baba - 2022</p>
     </footer>
 
